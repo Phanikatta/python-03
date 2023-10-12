@@ -1,0 +1,32 @@
+#1-To print given number is greater than 50 or not
+a=int(input('Enter a number:'))
+print('hi') if(a>50) else print('bye')
+
+#2-To generate student results
+sno=int(input('Enter Sno:'))
+sname=input('Enter student name:')
+sgroup=input('Enter the group:')
+s1=int(input('Enter s1 marks:'))
+s2=int(input('Enter s2 marks:'))
+s3=int(input('Enter s3 marks:'))
+tot=s1+s2+s3
+avg=tot/3
+if(avg>=90):
+	print('O-Grade')
+elif(avg>=80):
+	print('A-Grade')
+elif(avg>=70):
+	print('B-Grade')
+elif(avg>=60):
+	print('C-Grade')
+elif(avg>=50):
+	print('D-Grade')
+else:
+	print('Pass')
+
+#3-To print given number is positive or not
+n=int(input('Enter a value:'))
+if(n>0):
+	print('+ve number')
+else:
+	print('-ve number')
